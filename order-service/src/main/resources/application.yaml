@@ -1,0 +1,13 @@
+server:
+  port: 9192
+spring:
+  h2:
+    console:
+      enabled: true
+  application:
+    name: ORDER-SERVICE
+
+#Logger file entries
+logging:
+  file:
+    name: C:/Users/tcsspr/mslogs/microservice.log
